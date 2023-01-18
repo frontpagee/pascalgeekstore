@@ -1,5 +1,5 @@
 const Sequelize= require('sequelize');
-const database = require ("./db");
+const database = require ("../db");
 
 const Perfil = database.define( 'perfil' ,{ 
       id: { 
@@ -28,7 +28,7 @@ const Perfil = database.define( 'perfil' ,{
         type: Sequelize.STRING, 
         allowNull: false
        },
-       CEP: {
+       cep: {
         type: Sequelize.STRING, 
         allowNull: false
        },

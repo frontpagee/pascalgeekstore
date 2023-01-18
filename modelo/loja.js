@@ -22,3 +22,5 @@ const Loja = database.define( 'loja' ,{
        }
     
     }) 
+
+    module.exports = Loja;
